@@ -1,0 +1,12 @@
+{
+  "name": "autosugges",
+  "version": "0.1.1",
+  "description": "Teaches Claude Code to add AutoSugges autocomplete to React, Next.js, Expo and HTML apps, and bundles the AutoSugges MCP server.",
+  "author": {
+    "name": "AKHBaig"
+  },
+  "homepage": "https://autosugges.com",
+  "repository": "https://github.com/autosugges/autosugges-js",
+  "license": "MIT",
+  "keywords": ["autocomplete", "typeahead", "combobox", "mcp"]
+}

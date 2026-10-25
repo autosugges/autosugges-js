@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "autosugges": {
+      "command": "npx",
+      "args": ["-y", "@autosugges/mcp"],
+      "env": {
+        "AUTOSUGGES_PUBLISHABLE_KEY": "${AUTOSUGGES_PUBLISHABLE_KEY}"
+      }
+    }
+  }
+}

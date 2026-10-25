@@ -1,0 +1,23 @@
+{
+  "name": "autosugges-vite-react",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Vite + React country autocomplete with @autosugges/client.",
+  "license": "MIT",
+  "author": "AKHBaig",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@autosugges/client": "^0.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}

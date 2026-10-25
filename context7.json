@@ -1,0 +1,16 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "AutoSugges",
+  "description": "Hosted edge autocomplete for reference lists (countries, NAICS, airports, currencies): React, Next.js, Expo, HTML and an MCP server.",
+  "folders": ["examples", "agents"],
+  "excludeFolders": ["node_modules"],
+  "rules": [
+    "Only autocomplete queries. Call GET /v1/query with the text the user typed. Never fetch, dump, export or download a whole list, and never enumerate one with sequential queries.",
+    "The publishable key goes in the key query parameter. Never send it in an Authorization header; that header is reserved for an optional access token on a protected list.",
+    "Minimum query length is 2 characters and is never 1. Send no request below the list's queryPolicy.minQueryChars.",
+    "Debounce 150 ms by default. Read the real value from queryPolicy.debounceMs; do not hardcode either number.",
+    "A list returns 10 suggestions by default. Render what is returned; do not page or request more.",
+    "Render displayValue, store value. Switch on the typed error code, never on a message string.",
+    "A failure is not \"no results\". Show an error state driven by the error code."
+  ]
+}

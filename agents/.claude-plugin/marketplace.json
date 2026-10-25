@@ -1,0 +1,14 @@
+{
+  "name": "autosugges",
+  "owner": {
+    "name": "AKHBaig"
+  },
+  "plugins": [
+    {
+      "name": "autosugges",
+      "source": "./plugin",
+      "description": "AutoSugges autocomplete skill and MCP server for adding typeahead over reference lists.",
+      "version": "0.1.1"
+    }
+  ]
+}
